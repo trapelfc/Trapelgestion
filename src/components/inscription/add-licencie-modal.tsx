@@ -755,7 +755,5 @@ export function LicencieFormModal({ isOpen, onClose, onSave, initialData }: Lice
   );
 }
 
-// Correction de l'exportation de la modale principale si elle était nommée LicencieFormModal
-export { LicencieFormModal };
 
 const REFERENCE_YEAR_STORAGE_KEY = 'TRAPEL_FC_REFERENCE_YEAR_SETTING';
