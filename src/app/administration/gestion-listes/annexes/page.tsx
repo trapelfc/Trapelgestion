@@ -44,7 +44,6 @@ export interface AnnexeDefinition {
   lieu: string;
 }
 
-import { ANNEXE_DEFINITIONS_STORAGE_KEY } from '@/lib/annexes';
 const ANNEXE_EVENTS_STORAGE_KEY = 'TRAPEL_FC_ANNEXE_EVENTS_DATA'; // From occupation-annexe/page.tsx
 
 const INITIAL_ANNEXE_DEFINITIONS: AnnexeDefinition[] = [
