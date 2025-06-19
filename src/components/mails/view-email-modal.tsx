@@ -21,7 +21,7 @@ import { Send } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import type { ReferencedDocument } from '@/app/administration/documents/page';
-import { getReferencedDocuments } from '@/app/administration/documents/page';
+import { getReferencedDocuments } from '@/lib/documents';
 import { getPendingEmailsFromStorage, savePendingEmailsToStorage } from '@/app/inscription/paiement/page';
 import { useToast } from '@/hooks/use-toast';
 

@@ -1,0 +1,1 @@
+import { ANNEXE_DEFINITIONS_STORAGE_KEY } from '@/lib/annexes';
