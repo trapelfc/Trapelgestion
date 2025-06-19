@@ -37,7 +37,7 @@ export interface ReferencedDocument {
 
 const REFERENCED_DOCUMENTS_STORAGE_KEY = 'TRAPEL_FC_REFERENCED_DOCUMENTS_DATA';
 
-import { getReferencedDocuments } from '@/lib/documents';
+import { getReferencedDocuments } from '../../../lib/documents';
 
 const saveReferencedDocuments = (documents: ReferencedDocument[]) => {
   if (typeof window === 'undefined') return;
