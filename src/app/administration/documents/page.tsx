@@ -37,10 +37,7 @@ export interface ReferencedDocument {
 
 const REFERENCED_DOCUMENTS_STORAGE_KEY = 'TRAPEL_FC_REFERENCED_DOCUMENTS_DATA';
 
-export const getReferencedDocuments = (): ReferencedDocument[] => {
-  if (typeof window === 'undefined') return [];
-  const stored = localStorage.getItem(REFERENCED_DOCUMENTS_STORAGE_KEY);
-  return stored ? JSON.parse(stored) : [];
+import { getReferencedDocuments } from '@/lib/documents';
 };
 
 const saveReferencedDocuments = (documents: ReferencedDocument[]) => {
