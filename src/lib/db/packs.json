@@ -1,0 +1,21 @@
+
+[
+  {
+    "id": "pack-1",
+    "name": "Pack Essentiel",
+    "price": 50,
+    "composition": ["T-shirt", "Short", "Chaussettes"]
+  },
+  {
+    "id": "pack-2",
+    "name": "Pack Premium",
+    "price": 80,
+    "composition": ["T-shirt", "Short", "Chaussettes", "Survêtement"]
+  },
+  {
+    "id": "pack-3",
+    "name": "Pack Gardien",
+    "price": 95,
+    "composition": ["Maillot GDB", "Short", "Chaussettes", "Gants"]
+  }
+]

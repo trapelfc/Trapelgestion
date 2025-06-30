@@ -1,0 +1,14 @@
+{
+  "paymentConfirmation": {
+    "subject": "Récapitulatif de votre inscription - Trapel FC",
+    "body": "<p>Bonjour {{recipientName}},</p><p>Nous vous confirmons la finalisation du paiement pour l'inscription de <strong>{{licenseeName}}</strong> au Trapel FC pour la saison à venir.</p><p>Voici un récapitulatif des informations :</p><ul><li><strong>Licencié(e) :</strong> {{licenseeName}}</li><li><strong>Pack souscrit :</strong> {{packName}}</li><li><strong>Montant final réglé :</strong> {{finalPrice}} €</li></ul><p>L'étape suivante est l'attribution de l'équipement. Vous serez contacté(e) prochainement à ce sujet.</p><p>Nous vous remercions de votre confiance et vous souhaitons une excellente saison sportive !</p><br><p>Cordialement,<br>L'équipe du Trapel FC</p>"
+  },
+  "equipmentComplete": {
+    "subject": "Votre équipement est prêt ! - Trapel FC",
+    "body": "<p>Bonjour {{recipientName}},</p><p>Bonne nouvelle ! L'équipement pour <strong>{{licenseeName}}</strong> est maintenant complet et prêt à être récupéré.</p><p>Voici la liste des articles attribués :</p>{{equipmentList}}<p>Veuillez vous rapprocher du club pour connaître les modalités de récupération.</p><p>À bientôt sur les terrains !</p><br><p>Cordialement,<br>L'équipe du Trapel FC</p>"
+  },
+  "equipmentIncomplete": {
+    "subject": "Information importante concernant votre équipement - Trapel FC",
+    "body": "<p>Bonjour {{recipientName}},</p><p>Nous avons procédé à l'attribution de l'équipement pour <strong>{{licenseeName}}</strong>. Certains articles sont actuellement en rupture de stock et vous seront fournis ultérieurement.</p><p>Voici le statut de l'attribution :</p>{{equipmentList}}<p>Nous vous tiendrons informé(e) dès que les articles manquants seront disponibles.</p><p>Merci de votre compréhension.</p><br><p>Cordialement,<br>L'équipe du Trapel FC</p>"
+  }
+}

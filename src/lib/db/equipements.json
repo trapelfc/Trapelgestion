@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": "eq-1",
+    "name": "T-shirt",
+    "category": "Vêtement",
+    "reference_adulte": "242424444"
+  },
+  {
+    "id": "eq-2",
+    "name": "Short",
+    "category": "Vêtement",
+    "reference_adulte": "SH-001"
+  },
+  {
+    "id": "eq-3",
+    "name": "Chaussettes",
+    "category": "Chaussettes",
+    "reference_adulte": "SO-001"
+  },
+  {
+    "id": "eq-4",
+    "name": "Survêtement",
+    "category": "Vêtement",
+    "reference_adulte": "SV-001"
+  },
+  {
+    "id": "eq-5",
+    "name": "Maillot GDB",
+    "category": "Vêtement",
+    "reference_adulte": "GDB-001"
+  },
+  {
+    "id": "eq-6",
+    "name": "Gants",
+    "category": "Normal",
+    "reference_adulte": "GA-001"
+  }
+]

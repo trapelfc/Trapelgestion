@@ -1,0 +1,58 @@
+[
+  {
+    "lastName": "fffff",
+    "firstName": "coco",
+    "sex": "male",
+    "dateOfBirth": "2017-06-14T22:00:00.000Z",
+    "placeOfBirth": "carcassonne",
+    "bornAbroad": false,
+    "licenseeCategoryId": "lc-4",
+    "packId": "pack-2",
+    "phone": "0645154875",
+    "email": "allclub@gmail.com",
+    "legalRepresentative": {
+      "lastName": "dfsdfsdfs",
+      "firstName": "ffff",
+      "dateOfBirth": "1991-12-19T23:00:00.000Z",
+      "placeOfBirth": "fdsfsdf",
+      "bornAbroad": false,
+      "email": "fdsfsdfsd@gmail.com",
+      "fatherPhone": "0425854587",
+      "motherPhone": "0425854587"
+    },
+    "id": "lic-1751014914872",
+    "registrationDate": "2025-06-27T09:01:54.872Z",
+    "paymentStatus": "Payé",
+    "equipmentStatus": "Attribué",
+    "reductions": [
+      {
+        "id": "reduc-pass-sport",
+        "note": ""
+      }
+    ],
+    "assignedEquipment": [
+      {
+        "name": "T-shirt",
+        "size": "12 ans",
+        "outOfStock": false
+      },
+      {
+        "name": "Short",
+        "size": "14 ans",
+        "outOfStock": false
+      },
+      {
+        "name": "Chaussettes",
+        "size": "41-43",
+        "outOfStock": false
+      },
+      {
+        "name": "Survêtement",
+        "size": "XL",
+        "outOfStock": false
+      }
+    ],
+    "paymentDate": "2025-06-27T09:02:06.115Z",
+    "paymentComment": ""
+  }
+]

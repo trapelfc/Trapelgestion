@@ -1,0 +1,19 @@
+
+[
+  { "id": "lc-1", "name": "Seniors F", "description": "Née avant ou en 2007", "color": "hsl(0, 70%, 50%)" },
+  { "id": "lc-2", "name": "Seniors G", "description": "Né avant ou en 2007", "color": "hsl(22, 70%, 50%)" },
+  { "id": "lc-11", "name": "U18-U19 F", "description": "Née en 2008 ou 2009", "color": "hsl(225, 70%, 50%)" },
+  { "id": "lc-12", "name": "U18-U19 G", "description": "Né en 2008 ou 2009", "color": "hsl(247, 70%, 50%)" },
+  { "id": "lc-9", "name": "U16-U17 F", "description": "Née en 2010 ou 2011", "color": "hsl(180, 70%, 50%)" },
+  { "id": "lc-10", "name": "U16-U17 G", "description": "Né en 2010 ou 2011", "color": "hsl(202, 70%, 50%)" },
+  { "id": "lc-7", "name": "U14-U15 F", "description": "Née en 2012 ou 2013", "color": "hsl(135, 70%, 50%)" },
+  { "id": "lc-8", "name": "U14-U15 G", "description": "Né en 2012 ou 2013", "color": "hsl(157, 70%, 50%)" },
+  { "id": "lc-5", "name": "U12-U13 F", "description": "Née en 2014 ou 2015", "color": "hsl(90, 70%, 50%)" },
+  { "id": "lc-6", "name": "U12-U13 G", "description": "Né en 2014 ou 2015", "color": "hsl(112, 70%, 50%)" },
+  { "id": "lc-3", "name": "U10-U11 F", "description": "Née en 2016 ou 2017", "color": "hsl(45, 70%, 50%)" },
+  { "id": "lc-4", "name": "U10-U11 G", "description": "Né en 2016 ou 2017", "color": "hsl(67, 70%, 50%)" },
+  { "id": "lc-15", "name": "U8-U9 F", "description": "Née en 2018 ou 2019", "color": "hsl(315, 70%, 50%)" },
+  { "id": "lc-16", "name": "U8-U9 G", "description": "Né en 2018 ou 2019", "color": "hsl(337, 70%, 50%)" },
+  { "id": "lc-13", "name": "U6-U7 F", "description": "Née en 2020 ou 2021", "color": "hsl(270, 70%, 50%)" },
+  { "id": "lc-14", "name": "U6-U7 G", "description": "Né en 2020 ou 2021", "color": "hsl(292, 70%, 50%)" }
+]

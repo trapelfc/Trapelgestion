@@ -1,0 +1,28 @@
+[
+  {
+    "name": "admin",
+    "permissions": [
+      "/inscription",
+      "/stock",
+      "/mail",
+      "/data",
+      "/administration"
+    ]
+  },
+  {
+    "name": "user",
+    "permissions": [
+      "/inscription",
+      "/stock",
+      "/mail",
+      "/data"
+    ]
+  },
+  {
+    "name": "Invité",
+    "permissions": [
+      "/inscription/accueil",
+      "/inscription"
+    ]
+  }
+]

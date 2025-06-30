@@ -1,0 +1,13 @@
+
+{
+  "orderForm": {
+    "title": "Bon de Commande Club",
+    "headerText": "Généré le {{currentDate}}",
+    "footerText": "Merci de vérifier cette commande. Pour toute question, n'hésitez pas à nous contacter."
+  },
+  "donationReceipt": {
+    "title": "Reçu pour Don",
+    "headerText": "Reçu pour {{recipientName}}, généré le {{currentDate}}",
+    "footerText": "Le {{clubName}} vous remercie pour votre générosité. Votre don de {{donationAmount}}€ nous aide à soutenir nos jeunes talents et à améliorer nos infrastructures. Chaque contribution fait une différence."
+  }
+}

@@ -1,0 +1,32 @@
+--- a/node_modules/react-quill/lib/index.js
++++ b/node_modules/react-quill/lib/index.js
+@@ -432,7 +432,7 @@
+ 	},
+ 
+ 	getEditingArea: function getEditingArea() {
+-		return ReactDOM.findDOMNode(this).querySelector('.ql-editor');
++		return this.editingArea;
+ 	},
+ 
+ 	getEditor: function getEditor() {
+@@ -522,6 +522,7 @@
+ 		var editor = this.createEditor(
+ 			this.getEditingArea(),
+ 			this.getEditorConfig()
+ 		);
+ 		this.setEditor(editor);
+ 	},
+ 
+@@ -588,10 +589,9 @@
+ 		return DOM.div({
+ 			id: this.props.id,
+ 			style: this.props.style,
+-			className: classes.join(' '),
+-			onPlay: this.props.onPlay,
+-			onPause: this.props.onPause
++			className: classes.join(' '),
++			ref: (el) => { this.editingArea = el && el.querySelector('.ql-editor'); }
+ 		}, editor);
+ 	}
+ 
+ });

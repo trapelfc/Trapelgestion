@@ -1,0 +1,37 @@
+
+[
+  {
+    "id": "cat-1",
+    "name": "Vêtement",
+    "sizes": [
+      { "id": "size-1", "name": "6 ans" },
+      { "id": "size-2", "name": "8 ans" },
+      { "id": "size-3", "name": "10 ans" },
+      { "id": "size-4", "name": "12 ans" },
+      { "id": "size-5", "name": "14 ans" },
+      { "id": "size-6", "name": "XS" },
+      { "id": "size-7", "name": "S" },
+      { "id": "size-8", "name": "M" },
+      { "id": "size-9", "name": "L" },
+      { "id": "size-10", "name": "XL" },
+      { "id": "size-11", "name": "XXL" }
+    ]
+  },
+  {
+    "id": "cat-2",
+    "name": "Chaussettes",
+    "sizes": [
+      { "id": "size-12", "name": "35-37" },
+      { "id": "size-13", "name": "38-40" },
+      { "id": "size-14", "name": "41-43" },
+      { "id": "size-15", "name": "44-46" }
+    ]
+  },
+  {
+    "id": "cat-3",
+    "name": "Normal",
+    "sizes": [
+      { "id": "size-16", "name": "Taille unique" }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "referenceSeason": 2026,
+  "reductions": [
+    {
+      "id": "reduc-fratrie",
+      "name": "Réduction fratrie",
+      "amount": 10,
+      "note": "Pour le 2ème enfant et suivants."
+    },
+    {
+      "id": "reduc-pass-sport",
+      "name": "Pass Sport",
+      "amount": 70,
+      "note": "Aide de l'état (justificatif requis)."
+    },
+    {
+      "id": "reduc-villemoustaussou",
+      "name": "Carte Villemoustoussou",
+      "amount": 60,
+      "note": "Aide de la mairie (justificatif requis)."
+    },
+    {
+      "name": "test",
+      "amount": 0,
+      "note": "",
+      "multiplier": 0.5,
+      "id": "reduc-1751011068572"
+    }
+  ],
+  "clubInfo": {
+    "name": "Trapel Football Club",
+    "address": "55 Boulevard de la république",
+    "contact": "548191@footoccitanie.fr"
+  }
+}
