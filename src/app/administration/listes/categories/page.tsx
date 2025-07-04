@@ -9,16 +9,21 @@ export default function CategoriesPage() {
   useEffect(() => {
     async function fetchCategories() {
       const { data, error } = await supabase.from('categories').select('*');
-      if (!error) setCategories(data);
+      if (error) {
+        console.error('Erreur Supabase:', error);
+      } else {
+        setCategories(data);
+      }
     }
+
     fetchCategories();
   }, []);
 
   return (
     <div>
-      <h1>Catégories</h1>
+      <h1>Liste des Catégories</h1>
       <ul>
-        {categories.map((cat) => (
+        {categories.map((cat: any) => (
           <li key={cat.id}>{cat.nom}</li>
         ))}
       </ul>
