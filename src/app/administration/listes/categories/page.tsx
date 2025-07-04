@@ -1,35 +1,3 @@
-'use client';
-
-import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabase';
-
-export default function CategoriesPage() {
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-    async function fetchCategories() {
-      const { data, error } = await supabase.from('categories').select('*');
-      if (error) {
-        console.error('Erreur Supabase:', error);
-      } else {
-        setCategories(data);
-      }
-    }
-
-    fetchCategories();
-  }, []);
-
-  return (
-    <div>
-      <h1>Liste des Catégories</h1>
-      <ul>
-        {categories.map((cat: any) => (
-          <li key={cat.id}>{cat.nom}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
 
 import { getCategories } from "@/lib/actions";
 import { CategoriesView } from "./view";
